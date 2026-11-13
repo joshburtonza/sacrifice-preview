@@ -1,0 +1,730 @@
+<!doctype html>
+<html lang="en-ZA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex">
+<meta name="description" content="Heavyweight clothing made in South Africa for the people paying the price for something bigger than themselves. Collection 001 preview.">
+<meta name="theme-color" content="#ebe7df" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121110" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Sacrifice · Collection 001">
+<meta property="og:description" content="Nothing worth having comes without sacrifice.">
+<meta property="og:url" content="https://joshburtonza.github.io/sacrifice-preview/">
+<meta property="og:image" content="https://joshburtonza.github.io/sacrifice-preview/og.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23161513'/%3E%3Ctext x='32' y='46' font-family='Arial Narrow,Arial' font-weight='900' font-size='40' text-anchor='middle' fill='%23f6f3ec'%3ES%3C/text%3E%3C/svg%3E">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}[hidden]{display:none!important}</style>
+<title>Sacrifice Collection 001</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap">
+<style>
+/* Layout: one floating frosted bar, a static photograph with a frosted card on the bare wall, then four bands
+   (collection, sets, standard, list) on a soft colour field taken from the garments, so every pane has something
+   to frost. Heavy condensed caps do the shouting; everything else is quiet. */
+:root{
+  --bg:#ebe7df; --fg:#161513; --fg-2:rgba(22,21,19,.68); --fg-3:rgba(22,21,19,.5);
+  --glass:rgba(255,255,255,.6); --glass-2:rgba(250,248,244,.82); --glass-solid:rgba(250,248,244,.94); --pane:rgba(255,255,255,.5);
+  --edge:rgba(255,255,255,.9); --line:rgba(22,21,19,.1); --sw-line:rgba(22,21,19,.14); --field:rgba(22,21,19,.06);
+  --shadow:0 1px 1px rgba(22,21,19,.04),0 18px 48px -18px rgba(22,21,19,.28);
+  --ink:#161513; --on-ink:#f6f3ec; --ink-line:rgba(246,243,236,.16); --win:#55642a; --on-win:#fbfaf5; --warn:#8a2a22;
+  --plate:#f4f1eb; --scrim:rgba(14,13,11,.36);
+  --amb-1:rgba(110,34,38,.16); --amb-2:rgba(86,90,44,.2); --amb-3:rgba(165,150,132,.34);
+  --display:"Archivo","Arial Narrow","Helvetica Neue",Arial,sans-serif;
+  --text:"Archivo","Helvetica Neue",Arial,sans-serif;
+  --t-hero:clamp(40px,4.3vw,66px); --t-h2:clamp(36px,4.6vw,68px); --t-h3:clamp(22px,2.1vw,28px);
+  --r-lg:32px; --r-md:24px; --r-sm:16px;
+  --gutter:clamp(16px,4vw,48px);
+  --ease:cubic-bezier(.2,.8,.2,1); --spring:cubic-bezier(.3,1.5,.5,1);
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#121110; --fg:#f3efe7; --fg-2:rgba(243,239,231,.7); --fg-3:rgba(243,239,231,.5);
+    --glass:rgba(30,28,26,.58); --glass-2:rgba(26,25,23,.84); --glass-solid:rgba(28,27,25,.95); --pane:rgba(255,255,255,.055);
+    --edge:rgba(255,255,255,.16); --line:rgba(255,255,255,.1); --sw-line:rgba(255,255,255,.34); --field:rgba(255,255,255,.08);
+    --shadow:0 1px 1px rgba(0,0,0,.3),0 18px 48px -18px rgba(0,0,0,.7);
+    --ink:#f3efe7; --on-ink:#161513; --ink-line:rgba(22,21,19,.14); --win:#bccb7c; --on-win:#161513; --warn:#ef8d82;
+    --scrim:rgba(0,0,0,.55);
+    --amb-1:rgba(140,44,48,.2); --amb-2:rgba(104,108,54,.2); --amb-3:rgba(120,108,94,.2);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#121110; --fg:#f3efe7; --fg-2:rgba(243,239,231,.7); --fg-3:rgba(243,239,231,.5);
+  --glass:rgba(30,28,26,.58); --glass-2:rgba(26,25,23,.84); --glass-solid:rgba(28,27,25,.95); --pane:rgba(255,255,255,.055);
+  --edge:rgba(255,255,255,.16); --line:rgba(255,255,255,.1); --sw-line:rgba(255,255,255,.34); --field:rgba(255,255,255,.08);
+  --shadow:0 1px 1px rgba(0,0,0,.3),0 18px 48px -18px rgba(0,0,0,.7);
+  --ink:#f3efe7; --on-ink:#161513; --ink-line:rgba(22,21,19,.14); --win:#bccb7c; --on-win:#161513; --warn:#ef8d82;
+  --scrim:rgba(0,0,0,.55);
+  --amb-1:rgba(140,44,48,.2); --amb-2:rgba(104,108,54,.2); --amb-3:rgba(120,108,94,.2);
+  color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:96px;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--text);font-size:16px;line-height:1.5;font-stretch:100%;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+h1,h2,h3,p,dl,dd,ul,figure{margin:0}
+ul{padding:0;list-style:none}
+a{color:inherit;text-decoration:none}
+button,input{font:inherit;color:inherit}
+button{cursor:pointer;border:0;background:none;padding:0}
+img{display:block}
+em,i{font-style:normal}
+:focus-visible{outline:2px solid var(--fg);outline-offset:3px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.wrap{max-width:1336px;margin-inline:auto;padding-left:max(var(--gutter),env(safe-area-inset-left,0px));padding-right:max(var(--gutter),env(safe-area-inset-right,0px))}
+
+/* the colour field behind everything */
+.ambient{position:fixed;inset:0;z-index:-1;pointer-events:none;background:
+  radial-gradient(62vmax 62vmax at 8% 12%,var(--amb-1),transparent 62%),
+  radial-gradient(56vmax 56vmax at 96% 46%,var(--amb-2),transparent 62%),
+  radial-gradient(64vmax 64vmax at 36% 104%,var(--amb-3),transparent 64%)}
+
+/* frosted glass: real blur only where something moves or sits behind it */
+.glass{background:var(--glass);-webkit-backdrop-filter:blur(28px) saturate(175%);backdrop-filter:blur(28px) saturate(175%);border:1px solid var(--line);box-shadow:inset 0 1px 0 var(--edge),var(--shadow)}
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){ .glass{background:var(--glass-solid)} }
+.glass.thick{background:var(--glass-2)}
+.pane{background:var(--pane);border:1px solid var(--line);box-shadow:inset 0 1px 0 var(--edge),var(--shadow)}
+
+/* type */
+.display{font-family:var(--display);font-stretch:62%;font-weight:900;text-transform:uppercase;line-height:.9;letter-spacing:-.005em;text-wrap:balance}
+.label{font-size:11.5px;font-weight:650;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-3)}
+.lede{color:var(--fg-2);font-size:clamp(16px,1.25vw,18px);max-width:46ch;text-wrap:pretty}
+
+/* buttons: every press answers */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:48px;padding:0 22px;border-radius:999px;font-weight:650;font-size:15px;letter-spacing:.01em;white-space:nowrap;position:relative;transition:transform .18s var(--ease),background-color .25s,color .25s,box-shadow .25s}
+.btn:active{transform:scale(.96)}
+.btn svg{width:17px;height:17px;flex:none}
+.btn-ink{background:var(--ink);color:var(--on-ink)}
+.btn-ink:hover{box-shadow:0 10px 26px -10px var(--ink)}
+.btn-soft{background:var(--field);color:var(--fg);border:1px solid var(--line)}
+.btn-soft:hover{background:var(--line)}
+.btn .arr{transition:transform .25s var(--ease)}
+.btn:hover .arr{transform:translate(2px,-2px)}
+
+/* save: a plus that becomes a tick */
+.save .ico{position:relative;width:17px;height:17px;flex:none}
+.save .ico svg{position:absolute;inset:0;transition:opacity .2s,transform .35s var(--spring)}
+.save .tick{opacity:0;transform:scale(.4) rotate(-20deg)}
+.save .tick path{stroke-dasharray:22;stroke-dashoffset:22;transition:stroke-dashoffset .35s .08s var(--ease)}
+.save.is-on{background:var(--win);color:var(--on-win);border-color:transparent}
+.save.is-on .plus{opacity:0;transform:scale(.4) rotate(90deg)}
+.save.is-on .tick{opacity:1;transform:none}
+.save.is-on .tick path{stroke-dashoffset:0}
+.save.won::after{content:"";position:absolute;inset:0;border-radius:inherit;border:2px solid var(--win);animation:ring .6s var(--ease) forwards;pointer-events:none}
+@keyframes ring{from{opacity:.9;transform:scale(1)}to{opacity:0;transform:scale(1.28,1.6)}}
+
+/* ---------- nav ---------- */
+.nav{position:fixed;z-index:30;left:0;right:0;top:0;padding-top:calc(env(safe-area-inset-top,0px) + 12px);pointer-events:none}
+.nav-in{position:relative}
+.nav-bar{pointer-events:auto;display:flex;align-items:center;gap:20px;height:56px;padding:0 8px 0 22px;border-radius:999px;position:relative}
+.wordmark{font-family:var(--display);font-stretch:62%;font-weight:900;font-size:25px;letter-spacing:.02em;text-transform:uppercase;line-height:1}
+.nav-links{display:flex;gap:4px;margin-left:auto}
+.nav-links a{padding:9px 14px;border-radius:999px;font-size:14px;font-weight:550;color:var(--fg-2);transition:background-color .2s,color .2s}
+.nav-links a:hover{background:var(--field);color:var(--fg)}
+.list-btn{display:inline-flex;align-items:center;gap:9px;height:40px;padding:0 8px 0 16px;border-radius:999px;background:var(--ink);color:var(--on-ink);font-weight:650;font-size:14px;transition:transform .18s var(--ease)}
+.list-btn:active{transform:scale(.95)}
+.count{display:grid;place-items:center;min-width:24px;height:24px;padding:0 7px;border-radius:999px;background:var(--on-ink);color:var(--ink);font-size:12.5px;font-weight:750;font-variant-numeric:tabular-nums;transition:background-color .3s,color .3s}
+.count.has{background:var(--win);color:var(--on-win)}
+.count.pop{animation:pop .5s var(--spring)}
+@keyframes pop{0%{transform:scale(1)}35%{transform:scale(1.5)}100%{transform:scale(1)}}
+.nav-cta,.top-mark{display:none}
+.tray{pointer-events:auto;position:absolute;right:0;top:calc(100% + 10px);width:min(380px,calc(100vw - 32px));border-radius:var(--r-md);padding:18px;display:grid;gap:14px;transform-origin:top right;animation:drop .28s var(--ease)}
+@keyframes drop{from{opacity:0;transform:translateY(-8px) scale(.97)}to{opacity:1;transform:none}}
+.tray h2{font-size:15px;font-weight:700}
+.tray-list{display:grid;gap:8px}
+.tray-row{display:grid;grid-template-columns:48px 1fr auto;gap:12px;align-items:center}
+.tray-row img{width:48px;height:60px;object-fit:cover;border-radius:10px;background:var(--plate)}
+.tray-row b{display:block;font-weight:650;font-size:14.5px;line-height:1.25}
+.tray-row span{font-size:13px;color:var(--fg-3)}
+.x{display:grid;place-items:center;width:32px;height:32px;border-radius:999px;color:var(--fg-2);transition:background-color .2s,transform .18s}
+.x:hover{background:var(--field)} .x:active{transform:scale(.9)}
+.x svg{width:14px;height:14px}
+.tray-empty{color:var(--fg-2);font-size:14.5px}
+.tray .btn{width:100%}
+
+/* ---------- hero: one photograph, one card ---------- */
+main{padding-top:calc(env(safe-area-inset-top,0px) + 80px)}
+.hero-in{position:relative}
+.hero-frame{position:relative;border-radius:var(--r-lg);overflow:hidden;aspect-ratio:1672/941;max-height:760px;width:100%;background:var(--plate);box-shadow:var(--shadow)}
+.hero-frame img{width:100%;height:100%;object-fit:cover;object-position:78% 40%}
+.hero-card{position:absolute;left:clamp(20px,3.6%,52px);top:50%;transform:translateY(-50%);width:min(450px,38%);border-radius:var(--r-md);padding:clamp(22px,2.6vw,36px);display:grid;gap:18px;animation:rise .8s var(--ease) both}
+@keyframes rise{from{transform:translateY(calc(-50% + 16px))}to{transform:translateY(-50%)}}
+.hero-card h1{font-size:var(--t-hero)}
+.hero-card p{color:var(--fg-2);font-size:clamp(15px,1.2vw,17px);text-wrap:pretty}
+.hero-cta{display:flex;flex-wrap:wrap;gap:10px}
+.hero-chip{position:absolute;right:clamp(14px,2%,24px);bottom:clamp(14px,2%,24px);display:inline-flex;align-items:center;gap:10px;height:44px;padding:0 16px;border-radius:999px;font-size:14px;font-weight:600;transition:transform .2s var(--ease)}
+.hero-chip:hover{transform:translateY(-2px)}
+.hero-chip svg{width:15px;height:15px}
+.dots{display:inline-flex}
+.dots i{width:14px;height:14px;border-radius:50%;border:1.5px solid var(--edge);margin-left:-5px}
+.dots i:first-child{margin-left:0}
+
+/* ---------- sections ---------- */
+.sec{padding-block:clamp(64px,9vw,128px) 0}
+.sec-head{display:grid;gap:14px;margin-bottom:clamp(26px,3.4vw,44px)}
+.sec-head h2{font-size:var(--t-h2)}
+.sec-head.split{grid-template-columns:1fr auto;align-items:end;column-gap:32px}
+
+/* collection: three pieces, colour chosen in place */
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(12px,1.6vw,20px)}
+.card{border-radius:var(--r-lg);padding:10px;display:grid;grid-template-rows:auto 1fr;min-width:0}
+.plate{display:block;width:100%;aspect-ratio:4/5;border-radius:calc(var(--r-lg) - 10px);background:var(--plate);overflow:hidden;position:relative}
+.plate img{width:100%;height:100%;object-fit:cover;mix-blend-mode:multiply;transition:opacity .28s,transform .7s var(--ease)}
+.plate img.is-out{opacity:0;transform:scale(.975)}
+@media (hover:hover){ .card .plate:hover img:not(.is-out){transform:scale(1.035)} }
+.plate-hint{position:absolute;right:12px;bottom:12px;display:inline-flex;align-items:center;gap:7px;height:34px;padding:0 13px;border-radius:999px;font-size:12.5px;font-weight:650;opacity:0;transform:translateY(4px);transition:opacity .25s,transform .25s var(--ease)}
+.plate:hover .plate-hint,.plate:focus-visible .plate-hint{opacity:1;transform:none}
+@media (hover:none){ .plate-hint{opacity:1;transform:none} }
+.plate-hint svg{width:13px;height:13px}
+.card-body{display:grid;gap:14px;padding:18px 12px 10px;align-content:start}
+.card-top{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.card-top h3{font-family:var(--display);font-stretch:62%;font-weight:900;text-transform:uppercase;font-size:var(--t-h3);line-height:1}
+.col-name{font-size:14px;font-weight:600;color:var(--fg-2);white-space:nowrap}
+.card-desc{color:var(--fg-2);font-size:14.5px;min-height:2.9em}
+.card-row{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.swatches{display:flex;gap:8px}
+.sw{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;transition:transform .2s var(--spring)}
+.sw i{width:24px;height:24px;border-radius:50%;background:var(--c);box-shadow:inset 0 0 0 1px var(--sw-line);transition:transform .25s var(--spring)}
+.sw[aria-pressed="true"]{box-shadow:0 0 0 2px var(--fg)}
+.sw[aria-pressed="true"] i{transform:scale(.86)}
+.sw:active{transform:scale(.88)}
+.price{font-size:13px;color:var(--fg-3)}
+.card .save{width:100%}
+
+/* sets: photographs with a frosted caption */
+.sets{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(12px,1.6vw,20px)}
+.set{position:relative;border-radius:var(--r-lg);overflow:hidden;aspect-ratio:4/5;background:var(--plate);box-shadow:var(--shadow);min-width:0}
+.set img{width:100%;height:100%;object-fit:cover;transition:transform .9s var(--ease)}
+@media (hover:hover){ .set:hover img{transform:scale(1.03)} }
+.set-cap{position:absolute;left:10px;right:10px;bottom:10px;border-radius:20px;padding:10px 10px 10px 16px;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.set-cap b{display:block;font-family:var(--display);font-stretch:62%;font-weight:900;text-transform:uppercase;font-size:20px;line-height:1.05}
+.set-cap div span{font-size:13px;color:var(--fg-2)}
+.set-cap .save{min-height:42px;padding:0 16px;font-size:14px;background:var(--ink);color:var(--on-ink)}
+.set-cap .save.is-on{background:var(--win);color:var(--on-win)}
+
+/* the sacrifice: who pays, then what it is for */
+.payers{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(12px,1.6vw,20px)}
+.payer{border-radius:var(--r-md);padding:clamp(22px,2.4vw,32px);display:grid;gap:12px;align-content:start;min-width:0}
+.payer b{font-family:var(--display);font-stretch:62%;font-weight:900;text-transform:uppercase;font-size:clamp(32px,3.2vw,48px);line-height:.92}
+.payer p{color:var(--fg-2);font-size:15.5px;text-wrap:pretty}
+.inkband{background:var(--ink);color:var(--on-ink);border-radius:var(--r-lg);box-shadow:var(--shadow)}
+.inkband .label{color:inherit;opacity:.6}
+.pursuit{margin-top:clamp(12px,1.6vw,20px);padding:clamp(26px,4.4vw,64px);display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:clamp(20px,4vw,64px);align-items:end}
+.pursuit-words{font-family:var(--display);font-stretch:62%;font-weight:900;text-transform:uppercase;font-size:clamp(46px,6.4vw,104px);line-height:.88;margin-top:14px}
+.pursuit-words span{display:block}
+.pursuit-end{display:grid;gap:16px}
+.pursuit-end p{opacity:.78;font-size:clamp(16px,1.3vw,18px);text-wrap:pretty}
+.pursuit-end strong{font-family:var(--display);font-stretch:62%;font-weight:900;text-transform:uppercase;font-size:clamp(24px,2.4vw,34px);line-height:1;text-wrap:balance;padding-top:16px;border-top:1px solid var(--ink-line)}
+
+/* made here: the figures are the point, so they lead */
+.made{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(12px,1.6vw,20px)}
+.stat{border-radius:var(--r-md);padding:clamp(20px,2.2vw,30px);display:grid;gap:6px;align-content:start;min-width:0}
+.stat b{font-family:var(--display);font-stretch:62%;font-weight:900;font-size:clamp(56px,6vw,92px);line-height:.86;font-variant-numeric:tabular-nums}
+.stat em{font-weight:700;font-size:15px;text-transform:uppercase;letter-spacing:.06em}
+.stat p{color:var(--fg-2);font-size:14.5px;text-wrap:pretty;margin-top:6px}
+.stat.inkband p{color:inherit;opacity:.74}
+
+/* faith over fear, said proudly */
+.faith{display:grid;grid-template-columns:5fr 7fr;gap:clamp(12px,1.6vw,20px)}
+.std-photo{border-radius:var(--r-lg);overflow:hidden;background:var(--plate);box-shadow:var(--shadow);min-height:520px;position:relative}
+.std-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 22%}
+.faith-body{padding:clamp(26px,4.6vw,68px);display:grid;gap:22px;align-content:center;min-width:0}
+.faith-body h2{font-size:clamp(52px,7vw,112px);line-height:.86}
+.faith-big{font-size:clamp(21px,2.1vw,29px);font-weight:700;line-height:1.24;text-wrap:balance;max-width:24ch}
+.faith-text{opacity:.78;max-width:54ch;text-wrap:pretty}
+.neck{justify-self:start;display:grid;gap:5px;justify-items:center;padding:16px 22px 14px;border-radius:5px;background:var(--on-ink);color:var(--ink);outline:1px dashed var(--line);outline-offset:-5px}
+.neck b{font-family:var(--display);font-stretch:62%;font-weight:900;text-transform:uppercase;font-size:22px;line-height:1;letter-spacing:.02em}
+.neck small{font-size:10px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;opacity:.62}
+
+/* the list */
+.join{border-radius:var(--r-lg);padding:clamp(24px,4vw,56px);display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,4vw,64px);align-items:center}
+.join h2{font-size:var(--t-h2)}
+.join-copy{display:grid;gap:16px}
+.join-side{display:grid;gap:14px;min-width:0}
+.field{display:flex;gap:8px;padding:6px;border-radius:999px;background:var(--field);border:1px solid var(--line);transition:box-shadow .2s,border-color .2s}
+.field:focus-within{border-color:var(--fg);box-shadow:0 0 0 3px var(--field)}
+.field.bad{border-color:var(--warn)}
+.field input{flex:1;min-width:0;height:48px;padding:0 16px;border:0;background:none;font-size:16px;outline:none}
+.field input::placeholder{color:var(--fg-3)}
+.err{color:var(--warn);font-size:13.5px;font-weight:550}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{display:inline-flex;align-items:center;gap:8px;height:34px;padding:0 6px 0 12px;border-radius:999px;background:var(--field);border:1px solid var(--line);font-size:13.5px;font-weight:600;animation:chip .35s var(--spring)}
+@keyframes chip{from{opacity:0;transform:scale(.8)}to{opacity:1;transform:none}}
+.chip i{width:12px;height:12px;border-radius:50%;background:var(--c);box-shadow:inset 0 0 0 1px var(--sw-line)}
+.chip .x{width:24px;height:24px}
+.chip .x svg{width:10px;height:10px}
+.fine{font-size:12.5px;color:var(--fg-3)}
+.done{display:grid;gap:12px;justify-items:start}
+.seal{width:64px;height:64px;border-radius:50%;background:var(--win);color:var(--on-win);display:grid;place-items:center;position:relative;animation:pop .6s var(--spring)}
+.seal svg{width:30px;height:30px}
+.seal path{stroke-dasharray:30;stroke-dashoffset:30;animation:draw .5s .2s var(--ease) forwards}
+.seal::after{content:"";position:absolute;inset:0;border-radius:50%;border:2px solid var(--win);animation:ring2 .9s .1s var(--ease) forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes ring2{from{opacity:.9;transform:scale(1)}to{opacity:0;transform:scale(1.9)}}
+.done h3{font-family:var(--display);font-stretch:62%;font-weight:900;text-transform:uppercase;font-size:clamp(30px,3.4vw,44px);line-height:.95}
+.done p{color:var(--fg-2)}
+
+footer{padding-block:clamp(40px,6vw,72px) 36px;display:flex;flex-wrap:wrap;gap:12px 28px;align-items:baseline;justify-content:space-between;font-size:13px;color:var(--fg-3)}
+footer .wordmark{color:var(--fg);font-size:22px}
+
+/* toast: the answer to every action */
+.toast{position:fixed;z-index:60;left:16px;right:16px;margin-inline:auto;width:fit-content;bottom:calc(env(safe-area-inset-bottom,0px) + 20px);transform:translateY(24px) scale(.96);opacity:0;pointer-events:none;display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:8px 18px 8px 8px;border-radius:999px;font-size:14.5px;font-weight:600;transition:opacity .3s,transform .45s var(--spring)}
+.toast.on{opacity:1;transform:none}
+.toast-ico{width:32px;height:32px;border-radius:50%;background:var(--win);color:var(--on-win);display:grid;place-items:center;flex:none}
+.toast-ico svg{width:16px;height:16px}
+.toast.plain .toast-ico{background:var(--field);color:var(--fg)}
+
+/* look closer: a frosted sheet */
+dialog.sheet{border:1px solid var(--line);padding:0;color:var(--fg);width:min(1040px,calc(100vw - 24px));max-height:calc(100% - 24px);border-radius:var(--r-lg);overflow:hidden}
+dialog.sheet[open]{display:flex}
+dialog.sheet[open]{animation:sheet .38s var(--ease)}
+@keyframes sheet{from{opacity:0;transform:translateY(18px) scale(.975)}to{opacity:1;transform:none}}
+dialog.sheet::backdrop{background:var(--scrim);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
+.sheet-in{flex:1;min-width:0;overflow:auto;overscroll-behavior:contain;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:clamp(16px,2.6vw,36px);padding:12px}
+.gal{display:grid;gap:10px;align-content:start}
+.gal .plate{aspect-ratio:4/5}
+.thumbs{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.thumb{border-radius:14px;overflow:hidden;background:var(--plate);aspect-ratio:1;transition:transform .2s var(--spring),box-shadow .2s}
+.thumb img{width:100%;height:100%;object-fit:cover;mix-blend-mode:multiply}
+.thumb[aria-pressed="true"]{box-shadow:0 0 0 2px var(--fg)}
+.thumb:active{transform:scale(.94)}
+.info{display:grid;gap:18px;align-content:start;padding:clamp(10px,2vw,28px) clamp(6px,2vw,24px) 16px 0}
+.info-top{padding-right:52px}
+.info h2{font-size:clamp(34px,4vw,54px)}
+.close{position:absolute;z-index:2;top:14px;right:14px;width:42px;height:42px;background:var(--glass-2);border:1px solid var(--line);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px)}
+.specs{display:grid;border-top:1px solid var(--line)}
+.specs div{display:grid;grid-template-columns:92px 1fr;gap:14px;padding:11px 0;border-bottom:1px solid var(--line);font-size:14.5px}
+.specs dt{color:var(--fg-3)}
+.info .save{width:100%;min-height:54px;font-size:16px}
+
+/* ---------- narrow: the two actions sit under the thumb, everything else stacks or swipes ---------- */
+@media (max-width:980px){
+  html{scroll-padding-top:16px}
+  main{padding-top:0}
+  .top-mark{display:flex;justify-content:space-between;align-items:baseline;padding-block:14px 12px}
+  .top-mark .label{font-size:10.5px}
+  .nav{top:auto;bottom:0;padding-top:0;padding-bottom:calc(env(safe-area-inset-bottom,0px) + 10px)}
+  .nav-bar{height:auto;padding:6px;gap:6px}
+  .nav-bar .wordmark,.nav-links{display:none}
+  .nav-cta{display:inline-flex;flex:1;min-height:48px}
+  .list-btn{height:48px;padding:0 10px 0 18px;background:var(--field);color:var(--fg);border:1px solid var(--line)}
+  .count{background:var(--ink);color:var(--on-ink)}
+  .tray{top:auto;bottom:calc(100% + 10px);left:0;right:0;width:auto;max-height:min(60vh,460px);overflow:auto;transform-origin:bottom center;animation-name:lift}
+  @keyframes lift{from{opacity:0;transform:translateY(8px) scale(.97)}to{opacity:1;transform:none}}
+  .toast{bottom:auto;top:calc(env(safe-area-inset-top,0px) + 12px);transform:translateY(-24px) scale(.96)}
+  .hero-frame{aspect-ratio:4/5;max-height:none}
+  .hero-frame img{object-position:50% 20%}
+  .hero-card{position:relative;left:auto;top:auto;transform:none;width:auto;margin:-88px 10px 0;animation-name:rise-m}
+  @keyframes rise-m{from{transform:translateY(16px)}to{transform:none}}
+  .hero-cta .btn{flex:1}
+  .hero-cta .btn-soft{display:none}
+  .hero-chip{display:none}
+  .sec-head.split{grid-template-columns:1fr}
+  .cards,.sets{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:min(80vw,340px);overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;margin-inline:calc(-1*max(var(--gutter),env(safe-area-inset-left,0px)));padding-inline:max(var(--gutter),env(safe-area-inset-left,0px));scroll-padding-inline:max(var(--gutter),env(safe-area-inset-left,0px));padding-block:4px 28px}
+  .cards::-webkit-scrollbar,.sets::-webkit-scrollbar{display:none}
+  .card,.set{scroll-snap-align:start}
+  .sw{width:42px;height:42px}
+  .sw i{width:28px;height:28px}
+  .faith,.join,.pursuit{grid-template-columns:1fr}
+  .payers{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .made{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .std-photo{min-height:0;aspect-ratio:4/3}
+  .sheet-in{grid-template-columns:1fr}
+  .info{padding:4px 8px 12px}
+  .info-top{padding-right:0}
+  footer{padding-bottom:calc(env(safe-area-inset-bottom,0px) + 104px)}
+}
+@media (max-width:600px){
+  .payers{grid-template-columns:1fr;gap:10px}
+  .payer{padding:20px 22px;gap:8px}
+  .payer b{font-size:clamp(32px,9.6vw,42px)}
+  .made{gap:10px}
+  .stat{padding:18px}
+  .stat b{font-size:clamp(48px,14vw,64px)}
+  .stat em{font-size:12.5px}
+  .stat p{font-size:13.5px}
+  .faith-body h2{font-size:clamp(50px,15vw,72px)}
+  .field{flex-direction:column;border-radius:26px}
+  .field .btn{width:100%}
+  .hero-card h1{font-size:clamp(38px,11.4vw,52px)}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-delay:0s!important;transition-duration:.01ms!important}
+  html{scroll-behavior:auto}
+}
+</style>
+
+</head>
+<body>
+<div class="ambient" aria-hidden="true"></div>
+
+<header class="nav">
+  <div class="wrap">
+   <div class="nav-in">
+    <div class="nav-bar glass">
+      <a class="wordmark" href="#top" aria-label="Sacrifice, home">Sacrifice</a>
+      <nav class="nav-links" aria-label="Main">
+        <a href="#price">The sacrifice</a><a href="#collection">Collection</a><a href="#made">Made here</a><a href="#faith">Faith over fear</a>
+      </nav>
+      <a class="btn btn-ink nav-cta" href="#list">Get first access</a>
+      <button class="list-btn" type="button" id="listBtn" aria-expanded="false" aria-controls="tray">Your list <span class="count" id="count">0</span></button>
+    </div>
+    <div class="tray glass thick" id="tray" hidden>
+      <h2>Your list</h2>
+      <div class="tray-list" id="trayList"></div>
+      <a class="btn btn-ink" href="#list" id="trayGo">Tell me when they land <svg class="arr" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12 12 4M5.5 4H12v6.5"/></svg></a>
+    </div>
+   </div>
+  </div>
+</header>
+
+<main id="top">
+  <div class="top-mark wrap"><span class="wordmark">Sacrifice</span><span class="label">Collection 001</span></div>
+  <section class="hero wrap" aria-label="Collection 001">
+   <div class="hero-in">
+    <div class="hero-frame">
+      <picture>
+        <source media="(max-width:900px)" srcset="shoot/olive-gym.webp" width="880" height="1100">
+        <img src="shoot/hero-wide.webp" width="1672" height="941" alt="Three friends walking down a sunlit street in matching Sacrifice sets: black, olive and stone hoodies with wide-leg sweatpants. SACRIFICE is printed across the back of the black hoodie and PAY THE PRICE runs down one sleeve and one leg." fetchpriority="high">
+      </picture>
+      <a class="hero-chip glass" href="#sets"><span class="dots" aria-hidden="true"><i style="background:#181818"></i><i style="background:#403d27"></i><i style="background:#9d9080"></i></span>Black, olive and stone sets <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3v10M3.5 8.5 8 13l4.5-4.5"/></svg></a>
+    </div>
+    <div class="hero-card glass">
+      <p class="label">Collection 001</p>
+      <h1 class="display">Nothing worth having comes without sacrifice.</h1>
+      <p>The heaviest cotton we could find, made in South Africa, for the people paying the price for something bigger than themselves.</p>
+      <div class="hero-cta">
+        <a class="btn btn-ink" href="#collection">See the collection <svg class="arr" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12 12 4M5.5 4H12v6.5"/></svg></a>
+        <a class="btn btn-soft" href="#list">Get first access</a>
+      </div>
+    </div>
+   </div>
+  </section>
+
+  <section class="sec wrap" id="price">
+    <div class="sec-head split">
+      <div><p class="label">The sacrifice</p><h2 class="display">Nobody sees what it cost you.</h2></div>
+      <p class="lede">The missed birthdays. The second job. The friends who stopped calling. Sacrifice is quiet and it is never applauded. We made this for the people who pay it anyway.</p>
+    </div>
+    <div class="payers">
+      <article class="payer pane"><b>The father</b><p>Up before the house wakes. Home after it sleeps. He gives up what he wants so his children never have to ask.</p></article>
+      <article class="payer pane"><b>The career</b><p>Weddings missed. Weekends gone. Years building something nobody believes in yet except you.</p></article>
+      <article class="payer pane"><b>The friends</b><p>Saying no to the night out. Watching the group chat move on without you. Choosing the work over the room.</p></article>
+      <article class="payer pane"><b>The family</b><p>Time away from the people you love most, so one day they never go without.</p></article>
+      <article class="payer pane"><b>The comfort</b><p>The warm bed, the safe job, the easy road. You left them because they were never going to be enough.</p></article>
+      <article class="payer pane"><b>The pain</b><p>The last rep. The no that stung. The season that broke you and built you at the same time.</p></article>
+    </div>
+    <div class="pursuit inkband">
+      <div>
+        <p class="label">What it&rsquo;s for</p>
+        <p class="pursuit-words"><span>A goal.</span><span>A purpose.</span><span>Fulfilment.</span></p>
+      </div>
+      <div class="pursuit-end">
+        <p>You don&rsquo;t pay the price for the sake of it. You pay it for the people who come after you, and for the person you know you can become.</p>
+        <strong>Sacrifice is what it costs. Faith is why we pay it.</strong>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec wrap" id="collection">
+    <div class="sec-head split">
+      <div><p class="label">The collection</p><h2 class="display">Three pieces. Nine colours.</h2></div>
+      <p class="lede">Pick a colour and save what you want. We tell you the day it lands.</p>
+    </div>
+    <div class="cards" id="cards"></div>
+  </section>
+
+  <section class="sec wrap" id="made">
+    <div class="sec-head split">
+      <div><p class="label">Made in South Africa</p><h2 class="display">The heaviest cotton we could find. Made at home.</h2></div>
+      <p class="lede">Every piece is cut from the heaviest, highest-quality cotton we could source in South Africa, and made here. We never chose the easy option either.</p>
+    </div>
+    <div class="made">
+      <article class="stat pane"><b>300</b><em>GSM minimum</em><p>No piece under 300 grams per square metre. A standard tee is closer to 180.</p></article>
+      <article class="stat pane"><b>500</b><em>GSM hoodie</em><p>Our heaviest piece. It holds its shape on the hanger and on you.</p></article>
+      <article class="stat inkband"><b>100%</b><em>Made in South Africa</em><p>Cotton sourced here. Cut and sewn here. Every piece, every colour.</p></article>
+      <article class="stat pane"><b>0</b><em>Restocks promised</em><p>Capped runs, sold from stock in hand. When a colour is gone, it is gone.</p></article>
+    </div>
+  </section>
+
+  <section class="sec wrap" id="sets">
+    <div class="sec-head split">
+      <div><p class="label">Worn together</p><h2 class="display">Built as sets.</h2></div>
+      <p class="lede">Olive, black and stone match top to bottom. The tees go with all of them.</p>
+    </div>
+    <div class="sets" id="setGrid"></div>
+  </section>
+
+  <section class="sec wrap" id="faith">
+    <div class="faith">
+      <figure class="std-photo"><img src="shoot/black-gym.webp" width="880" height="1100" loading="lazy" decoding="async" alt="A man sitting on a gym bench in the black Sacrifice hoodie and sweatpants, PAY THE PRICE printed down the sleeve and the leg."></figure>
+      <div class="faith-body inkband">
+        <p class="label">What we stand on</p>
+        <h2 class="display">Faith over fear.</h2>
+        <p class="faith-big">Fear tells you to stay comfortable. Faith tells you to go anyway.</p>
+        <p class="faith-text">Every sacrifice on this page is an act of faith. The father who believes his children will have more. The builder who believes the work will pay. You give up something real today for something you cannot see yet. We are proud to stand on that, and we will never water it down. It is sewn inside the neck of every piece we make, so the first thing you read when you put it on is the reason you keep going.</p>
+        <div class="neck" role="img" aria-label="The inside neck label: Faith Over Fear, Romans 12:1, 2 Timothy 1:7"><small>Sacrifice</small><b>Faith over fear</b><small>Rom 12:1 · 2 Tim 1:7</small></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec wrap" id="list">
+    <div class="join pane">
+      <div class="join-copy">
+        <p class="label">First access</p>
+        <h2 class="display">Be first on the shelf.</h2>
+        <p class="lede">Collection 001 opens when every piece is in stock. Leave your email and you hear before anyone else.</p>
+      </div>
+      <div class="join-side">
+        <div class="chips" id="chips" hidden></div>
+        <form id="wait" novalidate>
+          <label class="sr" for="email">Email address</label>
+          <div class="field" id="field">
+            <input id="email" type="email" inputmode="email" placeholder="Email address" autocomplete="email" required>
+            <button class="btn btn-ink" type="submit" id="waitBtn">Tell me first</button>
+          </div>
+        </form>
+        <p class="err" id="err" role="alert" hidden>Enter an email address, like name@example.com.</p>
+        <div class="done" id="done" hidden>
+          <span class="seal" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5 10 17.5 19 7.5"/></svg></span>
+          <h3>You&rsquo;re on the list.</h3>
+          <p id="doneNote">You hear first when Collection 001 opens.</p>
+        </div>
+        <p class="fine">Concept preview. This form is not connected yet, so nothing is stored or sent.</p>
+      </div>
+    </div>
+    <footer>
+      <span class="wordmark">Sacrifice</span>
+      <span>South Africa</span>
+      <span>Images are design renders, not photographs of samples. Prices and sizes on release.</span>
+    </footer>
+  </section>
+</main>
+
+<div class="toast glass thick" id="toast" role="status" aria-live="polite"><span class="toast-ico" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 8.5 6.5 11.5 12.5 4.5"/></svg></span><span id="toastText"></span></div>
+
+<dialog class="sheet glass thick" id="look" aria-labelledby="lookName">
+  <div class="sheet-in">
+    <div class="gal">
+      <div class="plate"><img id="lookImg" alt="" width="900" height="1125"></div>
+      <div class="thumbs" id="lookThumbs"></div>
+    </div>
+    <div class="info">
+      <div class="info-top">
+        <div><p class="label">Collection 001</p><h2 class="display" id="lookName">The Oversized Tee</h2></div>
+        <button type="button" class="x close" id="lookX" aria-label="Close"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M2 2 12 12M12 2 2 12"/></svg></button>
+      </div>
+      <p class="lede" id="lookDesc"></p>
+      <div class="card-row"><div class="swatches" id="lookSw" role="group" aria-label="Colour"></div><span class="col-name" id="lookCol"></span></div>
+      <dl class="specs" id="lookSpecs"></dl>
+      <button type="button" class="btn btn-ink save" id="lookSave"></button>
+      <p class="fine">Design renders, not photographs of samples. Price and sizes on release.</p>
+    </div>
+  </div>
+</dialog>
+
+<script>
+(function(){
+  'use strict';
+  /* the collection, from the product pack: three pieces, three colours each */
+  var PIECES = [
+    {type:'tee', name:'The Oversized Tee', short:'tee', views:['back','front','detail'], start:1,
+     desc:'Dropped shoulders and wide sleeves. Clean front, SACRIFICE across the back.',
+     specs:[['Weight','300 GSM heavyweight cotton'],['Made','Sourced and sewn in South Africa'],['Fit','Oversized, dropped shoulders, wide sleeves'],['Front','Clean'],['Back','SACRIFICE across the shoulders']],
+     colours:[{id:'tee-black',name:'Black',hex:'#1b1b1b',ink:'Ivory'},{id:'tee-oxblood',name:'Oxblood',hex:'#4a1c1e',ink:'Ivory'},{id:'tee-bone',name:'Bone',hex:'#c7b7a2',ink:'Charcoal'}]},
+    {type:'hoodie', name:'The Oversized Hoodie', short:'hoodie', views:['back','front','detail'], start:0,
+     desc:'Roomy double hood, no cords. PAY THE PRICE down the left sleeve.',
+     specs:[['Weight','Heavyweight cotton, up to 500 GSM'],['Made','Sourced and sewn in South Africa'],['Fit','Oversized, double hood, no cords'],['Front','Clean, kangaroo pocket'],['Back','SACRIFICE across the shoulders'],['Sleeve','PAY THE PRICE, left side']],
+     colours:[{id:'hoodie-olive',name:'Olive',hex:'#403d27',ink:'Ivory'},{id:'hoodie-black',name:'Black',hex:'#181818',ink:'Ivory'},{id:'hoodie-stone',name:'Stone',hex:'#9d9080',ink:'Charcoal'}]},
+    {type:'sweatpant', name:'The Wide-Leg Sweatpant', short:'sweatpant', views:['front','back','detail'], start:0,
+     desc:'Wide straight leg, open hem. PAY THE PRICE down the left leg.',
+     specs:[['Weight','Heavyweight cotton, 300 GSM and up'],['Made','Sourced and sewn in South Africa'],['Fit','Wide straight leg, open hem'],['Waist','Elastic, side pockets'],['Leg','PAY THE PRICE, left side']],
+     colours:[{id:'sweatpant-stone',name:'Stone',hex:'#867667',ink:'Charcoal'},{id:'sweatpant-black',name:'Black',hex:'#171717',ink:'Ivory'},{id:'sweatpant-olive',name:'Olive',hex:'#3d3a25',ink:'Ivory'}]}
+  ];
+  var SETS = [
+    {img:'olive-street', name:'Olive set', ids:['hoodie-olive','sweatpant-olive'], alt:'A man walking away down a street in the olive Sacrifice hoodie and sweatpants, SACRIFICE across his back.'},
+    {img:'black-street', name:'Black set', ids:['hoodie-black','sweatpant-black'], alt:'A woman on a street corner in the black Sacrifice hoodie and sweatpants, looking back over her shoulder.'},
+    {img:'stone-street', name:'Stone set', ids:['hoodie-stone','sweatpant-stone'], alt:'A man outside a cafe in the stone Sacrifice hoodie and sweatpants, seen from behind.'},
+    {img:'oxblood-tee-street', name:'Oxblood on stone', ids:['tee-oxblood','sweatpant-stone'], alt:'A man leaving a gym in the oxblood Sacrifice tee and stone sweatpants, carrying a bag.'},
+    {img:'bone-tee-street', name:'Bone on stone', ids:['tee-bone','sweatpant-stone'], alt:'A woman walking down a lane in the bone Sacrifice tee and stone sweatpants.'},
+    {img:'black-tee-gym', name:'Black on black', ids:['tee-black','sweatpant-black'], alt:'A man in a gym in the black Sacrifice tee and black sweatpants, seen from behind.'}
+  ];
+  var byId = {};
+  PIECES.forEach(function(p){ p.colours.forEach(function(c){ byId[c.id] = {p:p, c:c}; }); });
+  function title(id){ var e = byId[id]; return e.c.name + ' ' + e.p.short; }
+  function src(id, k){ var e = byId[id]; return 'look/' + id + '-' + (k + 1) + '-' + e.p.views[k] + '.jpg'; }
+  function alt(id, k){ var e = byId[id], v = e.p.views[k]; return e.p.name + ' in ' + e.c.name.toLowerCase() + ', ' + (v === 'detail' ? 'fabric and print detail' : v + ' view'); }
+  function $(s){ return document.getElementById(s); }
+  function el(tag, cls, html){ var n = document.createElement(tag); if(cls) n.className = cls; if(html != null) n.innerHTML = html; return n; }
+
+  var ICO = {
+    plus:'<svg class="plus" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M8 3v10M3 8h10"/></svg>',
+    tick:'<svg class="tick" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 8.5 6.5 11.5 12.5 4.5"/></svg>',
+    x:'<svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M2 2 12 12M12 2 2 12"/></svg>',
+    look:'<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6V3h3M13 6V3h-3M3 10v3h3M13 10v3h-3"/></svg>'
+  };
+
+  /* ---- the list: what you saved, kept on this device ---- */
+  var saved = [];
+  try { saved = (JSON.parse(localStorage.getItem('sacrifice-list')) || []).filter(function(id){ return byId[id]; }); } catch(e){ saved = []; }
+  function persist(){ try { localStorage.setItem('sacrifice-list', JSON.stringify(saved)); } catch(e){} }
+  function has(ids){ return ids.every(function(id){ return saved.indexOf(id) >= 0; }); }
+
+  var toastT = 0;
+  function toast(text, plain){
+    var t = $('toast'); $('toastText').textContent = text; t.classList.toggle('plain', !!plain);
+    t.classList.remove('on'); void t.offsetWidth; t.classList.add('on');
+    clearTimeout(toastT); toastT = setTimeout(function(){ t.classList.remove('on'); }, 2600);
+  }
+  function pieces(n){ return n + (n === 1 ? ' piece' : ' pieces'); }
+
+  function saveBtn(btn, ids, label){
+    btn.dataset.ids = ids.join(','); btn.dataset.label = label || '';
+    btn.innerHTML = '<span class="ico">' + ICO.plus + ICO.tick + '</span><span class="t"></span>';
+    paint(btn);
+  }
+  function paint(btn){
+    if(!btn.dataset.ids) return;
+    var ids = btn.dataset.ids.split(','), on = has(ids), what = btn.dataset.label;
+    btn.classList.toggle('is-on', on); btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+    btn.querySelector('.t').textContent = on ? 'Saved' : (what ? 'Save ' + what : 'Save');
+  }
+  function sync(bump){
+    document.querySelectorAll('.save').forEach(paint);
+    var c = $('count'); c.textContent = saved.length; c.classList.toggle('has', saved.length > 0);
+    if(bump){ c.classList.remove('pop'); void c.offsetWidth; c.classList.add('pop'); }
+    $('listBtn').setAttribute('aria-label', 'Your list, ' + pieces(saved.length));
+    /* the tray under the bar */
+    var tl = $('trayList'); tl.innerHTML = '';
+    if(!saved.length) tl.appendChild(el('p', 'tray-empty', 'Nothing saved yet. Tap Save on any piece and it waits here.'));
+    saved.forEach(function(id){
+      var r = el('div', 'tray-row', '<img src="' + src(id, 0) + '" alt="" width="48" height="60"><div><b>' + byId[id].p.name + '</b><span>' + byId[id].c.name + '</span></div>');
+      var x = el('button', 'x', ICO.x); x.type = 'button'; x.setAttribute('aria-label', 'Remove ' + title(id)); x.addEventListener('click', function(e){ e.stopPropagation(); toggle([id]); });
+      r.appendChild(x); tl.appendChild(r);
+    });
+    $('trayGo').hidden = !saved.length;
+    /* the chips beside the email field */
+    var ch = $('chips'); ch.innerHTML = ''; ch.hidden = !saved.length;
+    saved.forEach(function(id){
+      var c2 = el('span', 'chip', '<i style="--c:' + byId[id].c.hex + '"></i>' + title(id));
+      var x = el('button', 'x', ICO.x); x.type = 'button'; x.setAttribute('aria-label', 'Remove ' + title(id)); x.addEventListener('click', function(){ toggle([id]); });
+      c2.appendChild(x); ch.appendChild(c2);
+    });
+  }
+  function toggle(ids, btn){
+    if(has(ids)){
+      saved = saved.filter(function(id){ return ids.indexOf(id) < 0; });
+      toast(ids.length > 1 ? 'Set removed from your list' : cap(title(ids[0])) + ' removed', true);
+      persist(); sync(false);
+    } else {
+      ids.forEach(function(id){ if(saved.indexOf(id) < 0) saved.push(id); });
+      toast((ids.length > 1 ? 'Set saved' : cap(title(ids[0])) + ' saved') + ' · ' + pieces(saved.length) + ' on your list');
+      persist(); sync(true);
+      if(btn){ btn.classList.remove('won'); void btn.offsetWidth; btn.classList.add('won'); }
+    }
+  }
+  function cap(s){ return s.charAt(0).toUpperCase() + s.slice(1); }
+  document.addEventListener('click', function(e){
+    var b = e.target.closest && e.target.closest('.save'); if(b) toggle(b.dataset.ids.split(','), b);
+  });
+
+  /* ---- a picture that changes without a jump ---- */
+  function swap(img, s, a){
+    if(img.getAttribute('src') === s) return;
+    img.classList.add('is-out');
+    var n = new Image(); n.onload = n.onerror = function(){ img.src = s; img.alt = a; img.classList.remove('is-out'); }; n.src = s;
+  }
+  function swatches(host, p, current, pick){
+    host.innerHTML = '';
+    p.colours.forEach(function(c, i){
+      var b = el('button', 'sw', '<i></i>'); b.type = 'button'; b.style.setProperty('--c', c.hex);
+      b.setAttribute('aria-label', c.name); b.setAttribute('aria-pressed', i === current ? 'true' : 'false');
+      b.addEventListener('click', function(){ host.querySelectorAll('.sw').forEach(function(o, k){ o.setAttribute('aria-pressed', k === i ? 'true' : 'false'); }); pick(i); });
+      host.appendChild(b);
+    });
+  }
+
+  /* ---- collection cards ---- */
+  PIECES.forEach(function(p){
+    p.at = p.start;
+    var card = el('article', 'card pane'), c = p.colours[p.at];
+    var plate = el('button', 'plate', '<img src="' + src(c.id, 0) + '" alt="' + alt(c.id, 0) + '" width="900" height="1125" loading="lazy"><span class="plate-hint glass">' + ICO.look + 'Look closer</span>');
+    plate.type = 'button'; plate.setAttribute('aria-label', 'Look closer: ' + p.name);
+    var body = el('div', 'card-body', '<div class="card-top"><h3>' + p.name.replace('The ', '') + '</h3><span class="col-name">' + c.name + '</span></div><p class="card-desc">' + p.desc + '</p>');
+    var row = el('div', 'card-row'), sw = el('div', 'swatches'); sw.setAttribute('role', 'group'); sw.setAttribute('aria-label', 'Colour');
+    row.appendChild(sw); row.appendChild(el('span', 'price', 'Price on release'));
+    var save = el('button', 'btn btn-soft save'); save.type = 'button';
+    body.appendChild(row); body.appendChild(save); card.appendChild(plate); card.appendChild(body); $('cards').appendChild(card);
+    p.set = function(i){
+      p.at = i; var c2 = p.colours[i];
+      swap(plate.querySelector('img'), src(c2.id, 0), alt(c2.id, 0));
+      body.querySelector('.col-name').textContent = c2.name;
+      sw.querySelectorAll('.sw').forEach(function(o, k){ o.setAttribute('aria-pressed', k === i ? 'true' : 'false'); });
+      saveBtn(save, [c2.id], c2.name.toLowerCase());
+    };
+    swatches(sw, p, p.at, p.set); saveBtn(save, [c.id], c.name.toLowerCase());
+    plate.addEventListener('click', function(){ openLook(p); });
+  });
+
+  /* ---- sets ---- */
+  SETS.forEach(function(s){
+    var f = el('figure', 'set', '<img src="shoot/' + s.img + '.webp" alt="' + s.alt + '" width="880" height="1100" loading="lazy">');
+    var cap2 = el('figcaption', 'set-cap glass', '<div><b>' + s.name + '</b><span>' + s.ids.map(function(id){ return cap(byId[id].p.short); }).join(' + ') + '</span></div>');
+    var b = el('button', 'btn save'); b.type = 'button'; saveBtn(b, s.ids, 'set'); b.setAttribute('aria-label', 'Save the ' + s.name.toLowerCase());
+    cap2.appendChild(b); f.appendChild(cap2); $('setGrid').appendChild(f);
+  });
+
+  /* ---- look closer ---- */
+  var look = $('look'), lookP = null, lookV = 0;
+  function lookPaint(){
+    var c = lookP.colours[lookP.at];
+    swap($('lookImg'), src(c.id, lookV), alt(c.id, lookV));
+    $('lookCol').textContent = c.name;
+    var th = $('lookThumbs'); th.innerHTML = '';
+    lookP.views.forEach(function(v, k){
+      var b = el('button', 'thumb', '<img src="' + src(c.id, k) + '" alt="" width="300" height="300">'); b.type = 'button';
+      b.setAttribute('aria-label', cap(v) + ' view'); b.setAttribute('aria-pressed', k === lookV ? 'true' : 'false');
+      b.addEventListener('click', function(){ lookV = k; lookPaint(); }); th.appendChild(b);
+    });
+    $('lookSpecs').innerHTML = lookP.specs.concat([['Print ink', c.ink + ' on ' + c.name.toLowerCase()]]).map(function(r){ return '<div><dt>' + r[0] + '</dt><dd>' + r[1] + '</dd></div>'; }).join('');
+    saveBtn($('lookSave'), [c.id], c.name.toLowerCase() + ' ' + lookP.short);
+  }
+  function openLook(p){
+    lookP = p; lookV = 0; $('lookName').textContent = p.name; $('lookDesc').textContent = p.desc;
+    swatches($('lookSw'), p, p.at, function(i){ p.set(i); lookPaint(); });
+    $('lookImg').removeAttribute('src'); lookPaint();
+    if(look.showModal) look.showModal(); else look.setAttribute('open', '');
+  }
+  function closeLook(){ if(look.close) look.close(); else look.removeAttribute('open'); }
+  $('lookX').addEventListener('click', closeLook);
+  look.addEventListener('click', function(e){ if(e.target === look) closeLook(); });
+
+  /* ---- the tray ---- */
+  var tray = $('tray'), listBtn = $('listBtn');
+  function setTray(open){ tray.hidden = !open; listBtn.setAttribute('aria-expanded', open ? 'true' : 'false'); }
+  listBtn.addEventListener('click', function(e){ e.stopPropagation(); setTray(tray.hidden); });
+  tray.addEventListener('click', function(e){ e.stopPropagation(); });
+  $('trayGo').addEventListener('click', function(){ setTray(false); });
+  document.addEventListener('click', function(){ if(!tray.hidden) setTray(false); });
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape' && !tray.hidden){ setTray(false); listBtn.focus(); } });
+
+  /* ---- first access ---- */
+  $('wait').addEventListener('submit', function(e){
+    e.preventDefault();
+    var v = $('email').value.trim(), ok = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v);
+    $('field').classList.toggle('bad', !ok); $('err').hidden = ok;
+    if(!ok){ $('email').focus(); return; }
+    $('wait').hidden = true; $('done').hidden = false;
+    $('doneNote').textContent = saved.length ? 'You hear first when Collection 001 opens, starting with the ' + pieces(saved.length) + ' you saved.' : 'You hear first when Collection 001 opens.';
+    toast('You’re on the list');
+  });
+  $('email').addEventListener('input', function(){ $('field').classList.remove('bad'); $('err').hidden = true; });
+
+  sync(false);
+})();
+</script>
+
+</body>
+</html>
